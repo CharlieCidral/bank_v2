@@ -3,50 +3,53 @@ Learning functions in python with Dio, but with some increments.
 
 ### SIGN PAGE
 
-![image](https://github.com/CharlieCidral/bank_v2/assets/69029099/ab8adb53-f5c4-41b4-8311-a24d1ea9c1f8)
+![image](https://github.com/CharlieCidral/bank_v2/assets/69029099/ffd51162-1e48-4c56-9eb2-1090efbf896d)
+
 
 ### MENU
 
-![image](https://github.com/CharlieCidral/bank_v2/assets/69029099/4805d1a1-a9fb-45b0-8204-2d21c75ab41f)
+![image](https://github.com/CharlieCidral/bank_v2/assets/69029099/9204dbc1-6360-4555-bd4d-ee876d434c3f)
+
+
 
 ### Proposed challenge
 
-Separar as funções existentes de saque, depósito e extrato em funções. Criar duas novas funções: cadastrar usuário (cliente) e cadastrar conta bancária.
+Separate existing withdrawal, deposit, and withdrawal functions into functions. Create two new functions: register user (customer) and register bank account.
 
-### Desafio
+### Challenge
 
-Precisamos deixar nosso código mais modularizado, para isso vamos criar funções para as operações existentes: sacar, depositar e visualizañhiStórico. Além disso, para a versão 2 do nosso sistema precisamos criar duas novas funções: criar usuário (cliente do banco) e criar conta corrente (vincular com usuário).
+We need to make our code more modularized, for that we are going to create functions for the existing operations: withdraw, deposit and view history. Furthermore, for version 2 of our system we need to create two new functions: create user (bank customer) and create current account (link with user).
 
-### Separação em Funções
+### Separation into Functions
 
-Devemos criar funções para todas as operações do sistema. Para exercitar tudo o que aprendemos neste módulo, cada função vai ter uma regra na passagem de argumentos. O
-retorno e a forma como serão chamadas, pode ser definida por você da forma que achar melhor.( Exercitar os argumentos por posição e argumentos nomeados )
+We must create roles for all system operations. To control everything that is controlled in this module, each function will have a rule when passing arguments. O
+return and the way they will be called, can be defined by you in the way you see fit. (Exercise the arguments by position and named arguments)
 
-### Saque
+### Withdraw
 
-A função saque deve receber os argumentos apenas por nome (keyword only). Sugestão de argumentos: saldo, valor, extrato, limite, numero saques, limite_saques. Sugestão de retorno: saldo e extrato.
+The looting function must receive the arguments only by name (keyword only). Suggested arguments: balance, value, statement, limit, number of withdrawals, limit_withdrawals. Return suggestion: balance and statement.
 
-### Depósito
+### Deposit
 
-A função depósito deve receber os argumentos apenas por posição (positional only). Sugestão de argumentos: saldo, valor, extrato. Sugestão de retorno: saldo e extrato.
+The function must receive arguments by position only (positional only). Suggested arguments: balance, value, statement. Return suggestion: balance and statement.
 
-### Extrato
+### Extract
 
-A função extrato deve receber os argumentos por posição e nome (positional only e keyword only). Argumentos posicionais: saldo, argumentos nomeados: extrato.
+The extra function must take arguments by position and name (positional only and keyword only). Positional arguments: balance, named arguments: extract.
 
-### Novas funções
+### New functions
 
-Precisamos criar duas novas funções: criar usuário e criar conta corrente. Fique a vontade para adicionar mais funções, exemplo: listar contas.
+we need to create two new functions: create user and create checking account. Feel free to add more functions, for example: list accounts.
 
-### Criar usuário (cliente)
+### Create User (Customer)
 
-O programa deve armazenar os usuários em uma lista, um usuário é composto por: nome, data de nascimento, cpf e endereço. O endereço é uma string com o formato: logradouro, nro-bairro - cidade/sigla estado. Deve ser armazenado somente os números do CPF. Não podemos cadastrar 2 usuários com o mesmo CPF.( Estrutura de dados para armazenar chave/valor )
+The program must store users in a list, a user is composed of: name, date of birth, CPF and address. The address is a string with the format: street, neighborhood number - city/state abbreviation. Only the CPF numbers should be stored. We cannot register 2 users with the same CPF. (Data structure to store key/value)
 
-### Criar conta corrente
+### Create checking account
 
-O programa deve armazenar contas em uma lista, uma conta é composta por: agência, número da conta e usuário. O número da conta é sequencial, iniciando em 1. O número da agência é fixo: "0001". O usuário pode ter mais de uma conta, mas uma conta pertence a somente um usuário.
+The program must store accounts in a list, an account is composed of: agency, account number and user. The account number is sequential, starting at 1. The branch number is fixed: "0001". A user can have more than one account, but an account belongs to only one user.
 
-### Dica
+### Tip
 
-Para vincular um usuário a uma conta, filtre a lista de usuários buscando o número do CPF informado para cada usuário da lista.
+To link a user to an account, filter a list of users by searching for the CPF number entered for each user in the list.
 
